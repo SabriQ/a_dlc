@@ -1,6 +1,6 @@
 import deeplabcut
 
-config_path = r'C:\gpfsdata\home\sqiu\job\dlc\ephy_bi_asf-Qs-2019-05-08\config.yaml'
+config_path = r'C:\gpfsdata\home\sqiu\job\dlc\ephy_bi_avi-Qs-2019-05-09\config.yaml'
 
 if config_path:
     deeplabcut.extract_frames(config_path,'automatic','uniform')
